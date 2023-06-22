@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsymmetricEncryption", "Asy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsymmetricEncrypt", "AsymmetricEncrypt\AsymmetricEncrypt.csproj", "{B44F5811-530B-4C6E-97D7-49D6EED35EBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageReplacement", "PageReplacement\PageReplacement.csproj", "{3357A7EF-AD43-4005-B54B-15915B7C3589}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PageReplacement", "PageReplacement\PageReplacement.csproj", "{3357A7EF-AD43-4005-B54B-15915B7C3589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashAlgorithms", "BCryptHash\HashAlgorithms.csproj", "{05B743E6-E8AC-4F12-A41C-2166E21898D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{3357A7EF-AD43-4005-B54B-15915B7C3589}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3357A7EF-AD43-4005-B54B-15915B7C3589}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3357A7EF-AD43-4005-B54B-15915B7C3589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B743E6-E8AC-4F12-A41C-2166E21898D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B743E6-E8AC-4F12-A41C-2166E21898D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B743E6-E8AC-4F12-A41C-2166E21898D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B743E6-E8AC-4F12-A41C-2166E21898D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
